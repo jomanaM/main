@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blogs</title>
+<link rel="stylesheet" href="PROC.css">
+</head>
+
+<body>
+
+
+<header>
+    <h2 class="logo">AnimeGo</h2>
+    <nav class="navigation">
+      <a href="index.html">Home</a>
+      <a href="Movie.html">Episodes</a>
+      <a href="gallery.html">Backgrounds</a>
+      <a href="CoverPage.html">Blogs</a>
+      <a href="episodesDate.html">Episodes dates</a>
+      <a href="TopManga.html">Manga</a>
+      <a href="rating.html">Rating</a>
+          
+        
+    </nav>
+  </header>
+
+<img src="image/webpage.png" style="position: fixed; width: 100%; height: 100%">
+
+  <div class="rectangle">
+
+ <img class="bottom-image" src="buttom.png" alt="click here for display blogs pictures"   onclick="showAdditionalImages()">
+
+    <div class="additional-images" id="additionalImages">
+
+<a href="image/JujuPage.html">
+      <img class="cB"  src="image/jjk html.png" alt="jujutsu page"></a>
+
+
+
+<a href="OnePiece.html">
+      <img class="cB" src="image/one piece html.png" alt="one piece page"></a>
+
+
+
+<a href="AttackPage.html">
+      <img class="cB" src="image/eren html.png" alt="attack page"></a>
+  </div>
+
+
+<h1>ANIME BLOGS </h1>
+    <h3>line</h3>
+    <h3>line</h3>
+    <p>You can find in this page the most popular anime and their news!!   list of best anime for 2021-2023 you can read about it with reviews and opinions of anime fans so  Press on the lets go icon to find the blogs.</p>
+   <h3>line</h3>
+    <h3>line</h3>
+</div>
+<script>
+    function showAdditionalImages() {
+      var additionalImagesContainer = document.getElementById("additionalImages");
+      if (additionalImagesContainer) {
+        additionalImagesContainer.style.display = "block";
+additionalImagesContainer.offsetHeight;
+additionalImagesContainer.classList.add("fade-in");
+      }
+    }
+
+  </script>
+</body>
+</html>
